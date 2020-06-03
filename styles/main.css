@@ -33,7 +33,7 @@ e maneira que é vista pelo html (display)
 */
 
 #page-home {
-    height: 150vh;
+    height: 120vh;
     
     background: url('../assets/home-background.svg') no-repeat;
     background-position: 35vw bottom;
