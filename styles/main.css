@@ -33,7 +33,7 @@ e maneira que é vista pelo html (display)
 */
 
 #page-home {
-    height: 120vh;
+    height: 130vh;
     
     background: url('../assets/home-background.svg') no-repeat;
     background-position: 35vw bottom;
@@ -143,28 +143,4 @@ e maneira que é vista pelo html (display)
     flex: 1;
     color: white;
     text-align: center;
-}
-
-@media (max-width: 900px) {
-    #page-home {
-        background-position-x: 70vw;
-    }
-
-    #page-home-content {
-        align-items: center;
-        text-align: center;
-    }
-
-    #page-home header a {
-        position: absolute;
-        bottom: 48px;
-
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-
-    #page-home main {
-        align-items: center;
-    }
 }
